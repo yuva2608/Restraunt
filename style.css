@@ -1,0 +1,91 @@
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+}
+.container{
+    margin: 30px;
+    
+}
+.section__one{
+    padding:20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    display: block;
+}
+.text1{
+    padding: 10px;
+    color: #8b36d1;
+    text-decoration: solid;
+}
+.text2{
+    padding: 10px;
+    font-weight: lighter;
+}
+.section__two,
+.section__three,
+.section__four,
+.section__five {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 22%;
+    margin: 1%;
+    text-align: center;
+    vertical-align: top;
+    margin: 20px;
+    border: black 10px solid;
+}
+.section__two img,
+.section__three img,
+.section__four img,
+.section__five img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    
+}
+.button1,
+.button2,
+.button3,
+.button4{
+    padding: 10px;
+    margin: 5px;
+    background-color: red ;
+    color: black;
+    border: black solid 5px;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.section__6{
+    padding: 30px;
+    background-color: aqua;
+    color: black;
+    border: white dashed 10px;
+    padding-left: 600px;
+    
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.one{
+    padding-left: 60px;
+    color: black;
+    
+    pad: 20px;
+    margin-top: 30px;
+    display: inline;
+    margin-bottom: 30px;
+    text-decoration: underline red;
+}
